@@ -1,0 +1,140 @@
+
+header{
+    nav {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+        
+    }
+    .logo{
+        width: auto;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 1rem 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 1rem;
+    }
+}
+.btnnew {
+            
+    margin: 0 2.5%;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.btnnew:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+section{
+    min-height: 100vh;
+}
+
+.CollContainerDiv, .ArtistContainerDiv, .AssetContainerDiv{
+display: inline-flex;
+flex-wrap: wrap;
+gap: 25px;
+width: 100%;
+height: auto;
+justify-content: center;
+}
+.object_card_insell{
+    width: 25%;
+    min-height: 10vh;
+    background-color: rgb(216, 215, 213);
+    border-radius: 2rem;
+    img{
+        width: 100%;
+        max-height: 30rem;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+}
+.object_insell_info{
+    width: 25%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+        padding: 1rem 0;
+    }
+}
+.object_card{
+    width: 25%;
+    min-height: 10vh;
+    background-color: rgb(216, 215, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 2rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    img{
+        border-radius:2rem 2rem 0 0;
+        width: 100%;
+        max-height: 25rem;
+        object-fit: cover;
+    }
+    .text_card{
+        padding: 2rem 1rem;
+        h3{
+            padding: 0.5rem 0;
+        }
+    }
+}
+.btndiv{
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.UserContainerDiv{
+    display: none;
+    width: 100%;
+    display: inline-flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    .User_card{
+        width: 10% !important;
+        background-color: rgb(216, 215, 213);
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        min-height: 10%;
+        border-radius: 2rem;
+        img{
+            border-radius:2rem 2rem 0 0;
+            width: 100%;
+            max-height: 25rem;
+            object-fit: cover;
+        }
+    }
+}
+.bigbid{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding:2rem 0 ;
+}
+
+img:hover{
+    opacity: 0.5& ;
+}
+
+footer{
+    width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+}
